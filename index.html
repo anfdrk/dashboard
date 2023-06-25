@@ -3,12 +3,260 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Admin Dashboard</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
-  
+  <div class="header">
+    <div class="header-top">
+      <form action="/search" method="get">
+        <i class="search-icon"></i>
+        <input type="text" name="query">
+      </form>
+      <div class="user">
+        <i class="bell-icon"></i>
+        <img class="user-img" src="" alt="user image">
+        <p>User Name</p>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="greeting">
+        <img src="" alt="user image" class="user-img">
+        <p>
+          <span>Hi there,</span> <br>
+          User Name (@nickname)
+        </p>
+      </div>
+      <div class="header-actions">
+        <button type="button">New</button>
+        <button type="button">Upload</button>
+        <button type="button">Share</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-logo">
+      <i class="logo-icon"></i>
+      <p>Dashboard</p>
+    </div>
+    <ul class="sidebar-main">
+      <li>
+        <a href="#">
+          <i class="icon-home"></i>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-profile"></i>
+          Profile
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-messages"></i>
+          Messages
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-history"></i>
+          History
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-tasks"></i>
+          Tasks
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-communities"></i>
+          Communities
+        </a>
+      </li>
+    </ul>
+
+    <ul class="sidebar-additional">
+      <li>
+        <a href="#">
+          <i class="icon-settings"></i>
+          Settings
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-support"></i>
+          Support
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon-privacy"></i>
+          Privacy
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <main class="main">
+    <div class="projects">
+      <h3>Your projects</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>Super Cool Project</h4>
+          <p>
+            Totam excepturi quaerat animi perferendis laborum quod molestias illum corrupti perspiciatis est nostrum dolore, necessitatibus deserunt tempore odit in voluptatum, accusamus ut.
+          </p>
+          <div class="project-actions">
+            <button type="button" class="favorite-btn">
+              <i class="favorite-icon"></i>
+            </button>
+            <button type="button" class="save-btn">
+              <i class="save-icon"></i>
+            </button>
+            <button type="button" class="share-btn">
+              <i class="share-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Less Cool Project</h4>
+          <p>
+            Rerum eveniet hic at obcaecati nulla cumque. Fuga laboriosam itaque incidunt similique, animi modi quaerat non optio dolor tempora recusandae perferendis amet. Ducimus possimus officiis deleniti fuga voluptatum eaque voluptates. Perspiciatis labore nihil nam hic molestiae, et enim quo qui ut facilis placeat quidem.
+          </p>
+          <div class="project-actions">
+            <button type="button" class="favorite-btn">
+              <i class="favorite-icon"></i>
+            </button>
+            <button type="button" class="save-btn">
+              <i class="save-icon"></i>
+            </button>
+            <button type="button" class="share-btn">
+              <i class="share-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Impossible App</h4>
+          <p>
+            Aut aspernatur distinctio consequatur vel optio, cupiditate nulla modi suscipit at voluptatem hic quos nobis reiciendis nemo eveniet quas, aperiam laboriosam tenetur.
+          </p>
+          <div class="project-actions">
+            <button type="button" class="favorite-btn">
+              <i class="favorite-icon"></i>
+            </button>
+            <button type="button" class="save-btn">
+              <i class="save-icon"></i>
+            </button>
+            <button type="button" class="share-btn">
+              <i class="share-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Easy Peasy App</h4>
+          <p>
+            Dolore, dignissimos quibusdam voluptas minus porro nobis error reiciendis. Provident dolore doloribus, quod esse quibusdam nihil aut! Impedit adipisci laudantium nihil fugit.
+          </p>
+          <div class="project-actions">
+            <button type="button" class="favorite-btn">
+              <i class="favorite-icon"></i>
+            </button>
+            <button type="button" class="save-btn">
+              <i class="save-icon"></i>
+            </button>
+            <button type="button" class="share-btn">
+              <i class="share-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Ad Blocker</h4>
+          <p>
+            Aspernatur in itaque rerum necessitatibus similique iure tempora ut, eaque totam assumenda officiis cupiditate, eius deserunt sequi nihil aliquid quis, cumque optio.
+          </p>
+          <div class="project-actions">
+            <button type="button" class="favorite-btn">
+              <i class="favorite-icon"></i>
+            </button>
+            <button type="button" class="save-btn">
+              <i class="save-icon"></i>
+            </button>
+            <button type="button" class="share-btn">
+              <i class="share-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Money Maker</h4>
+          <p>
+            Dicta dolorum cupiditate explicabo nemo ratione. Alias odit repellendus harum ipsum, voluptatibus labore dolor odio eius obcaecati nihil tenetur corporis aut dolores. Impedit nesciunt labore in, incidunt porro perspiciatis. Ex velit nesciunt, nihil cum aperiam iure obcaecati commodi delectus explicabo in et rerum sit.
+          </p>
+          <div class="project-actions">
+            <button type="button" class="favorite-btn">
+              <i class="favorite-icon"></i>
+            </button>
+            <button type="button" class="save-btn">
+              <i class="save-icon"></i>
+            </button>
+            <button type="button" class="share-btn">
+              <i class="share-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ads">
+      <h3>Announcements</h3>
+      <div class="ads-content">
+        <div class="ads-card">
+          <h4>Site Maintenance</h4>
+          <p>
+            Similique tempora reprehenderit tenetur, libero quod a consequuntur, soluta omnis id commodi inventore nihil quo eligendi ad. Quasi quibusdam reprehenderit sed ea.
+          </p>
+        </div>
+        <div class="ads-card">
+          <h4>Community Share Day</h4>
+          <p>
+            Nostrum eveniet accusantium commodi autem et molestias maxime tempore minus repellat sunt rem iure est, enim eius eos fugit omnis unde id.
+          </p>
+        </div>
+        <div class="ads-card">
+          <h4>Updated Privacy Policy</h4>
+          <p>
+            Quas temporibus unde ab ratione fugiat dolor inventore eos? Iste eos, expedita magnam maiores minus qui nemo pariatur dolores sed, eveniet animi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="trending">
+      <h3>Trending</h3>
+      <div class="trend-item">
+        <img src="" alt="">
+        <span>@tegan</span>
+        <span>World Peace Builder</span>
+      </div>
+      <div class="trend-item">
+        <img src="" alt="">
+        <span>@morgan</span>
+        <span>Super Cool Project</span>
+      </div>
+      <div class="trend-item">
+        <img src="" alt="">
+        <span>@Kendall</span>
+        <span>Life Changing App</span>
+      </div>
+      <div class="trend-item">
+        <img src="" alt="">
+        <span>@alex</span>
+        <span>No Traffic Maker</span>
+      </div>
+    </div>
+  </main>  
 
 </body>
 </html>
