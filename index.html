@@ -4,10 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <a href="#">
+        <i class="logo-icon"></i>
+        <p>Dashboard</p>
+      </a>
+    </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <i class="icon-home"></i>
+          <p>Home</p>
+        </li>
+        <li>
+          <i class="icon-profile"></i>
+          <p>Profile</p>
+        </li>
+        <li>
+          <i class="icon-messages"></i>
+          <p>Messages</p>
+        </li>
+        <li>
+          <i class="icon-history"></i>
+          <p>History</p>
+        </li>
+        <li>
+          <i class="icon-tasks"></i>
+          <p>Tasks</p>
+        </li>
+        <li>
+          <i class="icon-communities"></i>
+          <p>Communities</p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <i class="icon-settings"></i>
+          <p>Settings</p>
+        </li>
+        <li>
+          <i class="icon-support"></i>
+          <p>Support</p>
+        </li>
+        <li>
+          <i class="icon-privacy"></i>
+          <p>Privacy</p>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
   <div class="header">
     <div class="header-top">
       <form action="/search" method="get">
@@ -35,74 +87,9 @@
       </div>
     </div>
   </div>
-
-  <div class="sidebar">
-    <div class="sidebar-logo">
-      <i class="logo-icon"></i>
-      <p>Dashboard</p>
-    </div>
-    <ul class="sidebar-main">
-      <li>
-        <a href="#">
-          <i class="icon-home"></i>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-profile"></i>
-          Profile
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-messages"></i>
-          Messages
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-history"></i>
-          History
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-tasks"></i>
-          Tasks
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-communities"></i>
-          Communities
-        </a>
-      </li>
-    </ul>
-
-    <ul class="sidebar-additional">
-      <li>
-        <a href="#">
-          <i class="icon-settings"></i>
-          Settings
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-support"></i>
-          Support
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-privacy"></i>
-          Privacy
-        </a>
-      </li>
-    </ul>
-  </div>
-
+  
   <main class="main">
+
     <div class="projects">
       <h3>Your projects</h3>
       <div class="project-grid">
@@ -210,6 +197,7 @@
         </div>
       </div>
     </div>
+    
     <div class="ads">
       <h3>Announcements</h3>
       <div class="ads-content">
@@ -233,6 +221,7 @@
         </div>
       </div>
     </div>
+
     <div class="trending">
       <h3>Trending</h3>
       <div class="trend-item">
