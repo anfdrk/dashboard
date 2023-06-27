@@ -62,23 +62,25 @@
 
   <div class="header">
     <div class="header-top">
-      <form action="/search" method="get">
+      <form class="search" action="/search" method="get">
         <i class="search-icon"></i>
-        <input type="text" name="query">
+        <input type="text" name="query" class="search-input">
       </form>
       <div class="user">
         <i class="bell-icon"></i>
-        <img class="user-img" src="" alt="user image">
-        <p>User Name</p>
+        <div class="user-img">
+          <img src="images/leland.jpg" alt="user image">
+        </div>
+        <p>Leland Palmer</p>
       </div>
     </div>
     <div class="header-bottom">
       <div class="greeting">
-        <img src="" alt="user image" class="user-img">
-        <p>
+        <img src="images/leland.jpg" alt="user image" class="user-img">
+        <h3>
           <span>Hi there,</span> <br>
-          User Name (@nickname)
-        </p>
+          Leland Palmer (@leland666)
+        </h3>
       </div>
       <div class="header-actions">
         <button type="button">New</button>

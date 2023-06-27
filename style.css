@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root {
   --color-1: #feffff;
   --color-2: #1e2120;
@@ -9,8 +11,10 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: clamp(240px, 15%, 280px) 1fr;
-  grid-template-rows: 200px auto;
-  /* grid-template-rows: auto 1fr; */
+  grid-template-rows: 250px auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-2);
 }
 
 a {
@@ -39,7 +43,7 @@ a {
 .sidebar-logo {
   width: min-content;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 700;
   padding: 2rem 1rem;
 }
 
@@ -99,6 +103,8 @@ a {
 
 .header {
   grid-column: 2 / 3;
+  background-color: var(--color-1);
+  padding: 0 1rem;
 }
 
 .header-top {
@@ -106,19 +112,93 @@ a {
   justify-content: space-between;
 }
 
+.search {
+  display: flex;
+  align-items: center;
+  padding: 2rem 2rem 1rem;
+}
+
+.search-icon {
+  background-image: url(icons/magnify.svg);
+  margin-right: 0.6rem;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 2rem 2rem 1rem;
+  font-weight: 700;
+}
+
+.bell-icon {
+  background-image: url(icons/bell-outline.svg);
+  background-repeat: no-repeat;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.user-img img,
+.greeting img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--color-4);
+  cursor: pointer;
+  margin-right: 0.7rem;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  padding: 0 2rem 2rem;
+  font-size: 1.2rem;
+}
+
+.greeting img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1.2rem;
+}
+
+.greeting span {
+  font-size: 1rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 2rem;
+  gap: 1.5rem;
+}
+
+.header-actions button {
+  font-weight: 700;
+  background-color: var(--color-3);
+  color: var(--color-1);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 120px;
+  cursor: pointer;
+}
+
+/*  */
 .main {
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: 3fr 1fr;
   padding: 1.1rem;
-}
-
-
-
-
-.header-bottom {
-  display: flex;
-  justify-content: space-between;
+  background-color: var(--color-4);
 }
 
 .projects {
