@@ -4,11 +4,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-p {
+p, h4, ul {
   margin: 0;
 }
 ul {
-  margin: 0;
   padding: 0;
 }
 li {
@@ -16,7 +15,4 @@ li {
 }
 a {
   text-decoration: none;
-}
-h3 {
-  margin: 0;
 }
